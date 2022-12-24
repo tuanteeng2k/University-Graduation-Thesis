@@ -10,15 +10,11 @@
 
 /*********MAPPING********/
 
-Tab1 - First: cd catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/launch/
+Tab1: roslaunch turtlebot3_gazebo turtlebot3_world.launch
 
-Tab2 - Second: cd catkin_ws/src/turtlebot3/turtlebot3_slam/launch/
+Tab2: roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
 
-Run 1: roslaunch turtlebot3_gazebo turtlebot3_world.launch
-
-Run 2: roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
-
-RunTeleop: rosrun turtlebot3_teleop turtlebot3_teleop_key
+Tab3 - RunTeleop: rosrun turtlebot3_teleop turtlebot3_teleop_key
 
 /***********************/
 
